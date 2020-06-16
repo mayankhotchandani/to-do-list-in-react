@@ -1,0 +1,29 @@
+.list{
+    color:white;
+    width: 300px;
+    background-color: rgb(200, 20, 255);
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 5px;
+
+}
+.list p{
+    padding: 12px;
+    position: relative;
+}
+.delicon{
+    height: 2em;
+    width: 2em;
+    position:absolute;
+    right: 10px;
+    margin: 0 1px;
+}
+.list p input{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+}
+.list p input:focus{
+    outline: none;
+}
